@@ -30,19 +30,19 @@ Sou **desenvolvedor fullstack** com base sólida em **análise de processos**. H
 ## 🛠️ Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,html,css&theme=dark" alt="Linguagens e frameworks" />
+  <img src="https://skillicons.dev/icons?i=js,ts,nodejs,express,react,nextjs,tailwind,html,css&theme=dark" alt="Linguagens e frameworks" />
   <br/>
-  <img src="https://skillicons.dev/icons?i=electron,selenium,npm,git,github,githubactions,vscode&theme=dark" alt="Ferramentas e infraestrutura" />
+  <img src="https://skillicons.dev/icons?i=postgres,prisma,docker,electron,selenium,git,github,githubactions,vscode&theme=dark" alt="Ferramentas e infraestrutura" />
 </p>
 
 <div align="center">
 
 | Área | O que uso |
 |:--|:--|
-| **Backend** | Node.js, TypeScript, Express, APIs REST, rotinas agendadas |
-| **Frontend** | React, HTML, CSS, dashboards e painéis administrativos |
+| **Backend** | Node.js, TypeScript, Express 5, Prisma, APIs REST, JWT, Socket.IO, rotinas com node-cron |
+| **Frontend** | Next.js 15, React 19, Tailwind, Radix UI, React Query, Zustand, Recharts |
 | **Automação** | Bots de WhatsApp (Baileys / whatsapp-web.js), Selenium, scripts de rotina, integrações com ERPs |
-| **Dados** | SQL, relatórios e exportações (Excel/JSON), indicadores operacionais |
+| **Dados & Infra** | PostgreSQL, Docker, PM2, relatórios em Excel/PDF, indicadores de BI |
 | **Desktop & Devices** | Electron, totens de autoatendimento, servidores de impressão |
 | **IA** | Automação de conteúdo e fluxos com LLMs |
 
@@ -50,7 +50,95 @@ Sou **desenvolvedor fullstack** com base sólida em **análise de processos**. H
 
 ---
 
-## 🚀 Projetos em destaque
+## 📊 Projeto principal — Multi Analytics
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js_15-000000?style=flat-square&logo=nextdotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/React_19-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express_5-000000?style=flat-square&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.IO-010101?style=flat-square&logo=socketdotio&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+</p>
+
+Plataforma fullstack de **BI e gestão operacional** que desenvolvo na **N-Multifibra** (provedor de internet por fibra). Ela reúne dados de vários sistemas da empresa — ERP do provedor, telefonia, atendimento digital e ponto eletrônico — num só lugar, com dashboards por área, cálculo automático de comissões e monitoramento em tempo real.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 💰 Cobrança e comissões
+- Renegociações, FirstPay, negativação e reclamações
+- Motor de **regras de comissão** configurável
+- Staging, **fechamento mensal** e auditoria
+- Visão individual por agente e relatórios
+
+</td>
+<td width="50%" valign="top">
+
+### 📈 Comercial
+- Vendas, leads e **receita recorrente (MRR)**
+- Churn, metas e performance por vendedor
+- Comissões comerciais por período
+- Painel individual do agente
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 🔧 Operacional e ordens de serviço
+- **Produtividade de técnicos** e regras de bonificação
+- Análise de ponto, reincidências e escalas
+- Monitoramento operacional com mapa
+- Relatório 360° do técnico exportável em PDF
+
+</td>
+<td valign="top">
+
+### 🚪 Cancelamento e retenção
+- Dashboard de churn e motivos de cancelamento
+- Fluxo guiado (wizard) de retenção
+- Sucesso do cliente com auditoria de NPS
+- Controle de reincidência
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+### 📞 Atendimento em tempo real
+- **TV Wall** com ramais, filas e agentes ao vivo via Socket.IO
+- Análise de ligações, pausas e avaliações
+- Métricas de atendimento digital (tickets abertos, fila de espera)
+
+</td>
+<td valign="top">
+
+### 📣 Marketing, rede e gerencial
+- Campanhas por audiência com disparo de **e-mail/SMS** e aprovação
+- Indicadores por interface PON da rede de fibra
+- Relatório gerencial: faturamento, base, churn e planos
+
+</td>
+</tr>
+</table>
+
+**Por baixo do capô**
+
+- 🧩 **Arquitetura modular**: módulos ligam e desligam em tempo de execução, sem reiniciar o servidor; um módulo com falha não derruba o resto do sistema
+- 🔐 **Segurança**: autenticação JWT, controle de sessões e **permissões granulares** por usuário e grupo, com escopo de "ver só os próprios dados"
+- ⏰ **Rotinas agendadas** que sincronizam as integrações externas, com painel de controle e alertas por Telegram/e-mail
+- 🗄️ Banco PostgreSQL com **mais de 50 modelos** via Prisma, deploy com Docker e PM2
+- ✅ Testes automatizados de agregações, deduplicação de MRR e performance
+
+> 🔒 Código proprietário em repositório privado. Posso apresentar o sistema em uma conversa ou demonstração.
+
+---
+
+## 🚀 Outros projetos
 
 <div align="center">
 
@@ -67,7 +155,6 @@ Além dos repositórios públicos, já desenvolvi (em repositórios privados) so
 
 | | Projeto | Descrição |
 |:-:|:--|:--|
-| 📊 | **Plataforma de analytics operacional** | Backend + frontend com indicadores de operação e produtividade de equipes técnicas |
 | 🔄 | **Orquestrador de rotinas para ERP** | Agenda e executa rotinas automáticas integradas ao ERP de provedores de internet |
 | 🔐 | **Controle de acesso** | Sistema fullstack de autenticação e gestão de permissões |
 | 🏬 | **Totem de almoxarifado** | Aplicação de autoatendimento com servidor de impressão integrado |
