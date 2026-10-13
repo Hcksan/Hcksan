@@ -134,7 +134,7 @@ Plataforma fullstack de **BI e gestão operacional** que desenvolvo na **N-Multi
 - 🗄️ Banco PostgreSQL com **mais de 50 modelos** via Prisma, deploy com Docker e PM2
 - ✅ Testes automatizados de agregações, deduplicação de MRR e performance
 
-> 🔒 Código proprietário em repositório privado. Posso apresentar o sistema em uma conversa ou demonstração.
+> 🔒 Código proprietário em repositório privado.
 
 ---
 
