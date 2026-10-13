@@ -145,9 +145,6 @@ Plataforma fullstack de **BI e gestão operacional** que desenvolvo na **N-Multi
 <a href="https://github.com/Hcksan/Bot-profissional-para-WhatsApp-usando-Baileys">
   <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hcksan&repo=Bot-profissional-para-WhatsApp-usando-Baileys&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Bot profissional para WhatsApp" />
 </a>
-<a href="https://github.com/Hcksan/organo">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Hcksan&repo=organo&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Organo" />
-</a>
 
 </div>
 
@@ -166,22 +163,16 @@ Além dos repositórios públicos, já desenvolvi (em repositórios privados) so
 
 ## 📈 Estatísticas
 
-<div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Hcksan&show_icons=true&count_private=true&include_all_commits=true&theme=tokyonight&hide_border=true&bg_color=0d1117&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hcksan&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Linguagens mais usadas" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Hcksan&theme=tokyonight&hide_border=true&background=0d1117" alt="GitHub streak" />
-</div>
-
-<br/>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hcksan/hcksan/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hcksan/hcksan/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man comendo o gráfico de contribuições" src="https://raw.githubusercontent.com/hcksan/hcksan/output/pacman-contribution-graph.svg">
-</picture>
+<table align="center">
+<tr>
+<td align="center" width="50%">
+  <img width="100%" src="https://github-readme-stats.vercel.app/api?username=Hcksan&show_icons=true&count_private=true&include_all_commits=true&hide=issues,contribs&theme=tokyonight&hide_border=true&bg_color=0d1117&rank_icon=github&card_width=420" alt="GitHub stats" />
+</td>
+<td align="center" width="50%">
+  <img width="100%" src="https://streak-stats.demolab.com?user=Hcksan&theme=tokyonight&hide_border=true&background=0d1117&card_width=420" alt="GitHub streak" />
+</td>
+</tr>
+</table>
 
 ---
 
