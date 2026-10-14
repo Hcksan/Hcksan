@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/gabrielosanttana/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <img src="https://komarev.com/ghpvc/?username=Hcksan&style=for-the-badge&color=2c5364&label=VISITAS" alt="Visitas ao perfil" />
+  <a href="https://github.com/Hcksan?tab=followers" target="_blank"><img src="https://img.shields.io/github/followers/Hcksan?style=for-the-badge&logo=github&label=Seguidores&color=2c5364&labelColor=0d1117" alt="Seguidores no GitHub" /></a>
 </p>
 
 ---
